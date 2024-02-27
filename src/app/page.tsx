@@ -1,3 +1,10 @@
+import UserNavBar from "../../components/UserNavBar";
+
 export default function LandPage() {
-  return <h1>Gymstats</h1>;
+  return (
+    <div className="defaultContainer">
+      <UserNavBar />
+      <div>Hello</div>
+    </div>
+  );
 }
