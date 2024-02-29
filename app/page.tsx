@@ -1,11 +1,10 @@
 import UserNavBar from "../components/UserNavBar";
-import Link from "next/link";
 
 export default function LandPage() {
   return (
-    <div className="defaultContainer flex flex-col items-center">
+    <div className="defaultContainer flex flex-col justify-center items-center">
       <UserNavBar />
-      <div className=" text-white">Hello world</div>
+      <div className="text-gray-50">Em breve...</div>
     </div>
   );
 }
